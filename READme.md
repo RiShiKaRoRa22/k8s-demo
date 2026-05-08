@@ -3,28 +3,68 @@ Containerized Node.js application deployment workflow using Docker and Kubernete
 
 ## Architecture
 Windows Host    
+
+
 ↓
-Docker Desktop    
+
+
+Docker Desktop 
+
+
 ↓
+
+
 Kubernetes Cluster   
+
+
 ↓
+
+
 Deployment    
+
+
 ↓
-Pods    
+
+
+Pods 
+
+
 ↓
+
+
 Containers
 
 ## Workflow
 Application    
+
+
 ↓
-Docker Image Build    
+
+
+Docker Image Build 
+
+
 ↓
+
+
 Kubernetes Deployment    
+
+
 ↓
+
+
 Pod Creation    
+
+
 ↓
-Service Exposure    
+
+
+Service Exposure 
+
+
 ↓
+
+
 Load Balanced Access
 
 ## Deployment Flow
@@ -40,9 +80,17 @@ Load Balanced Access
 
 ## Traffic Routing
 Client   
+
+
 ↓
+
+
 Kubernetes Service 
+
+
 ↓   ↓   ↓
+
+
 Pod Pod Pod
 
 ## Features
