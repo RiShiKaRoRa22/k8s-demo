@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: k8s-demo:latest
+        image: k8s-demo:v2
         imagePullPolicy: IfNotPresent
 
         ports:
